@@ -1,0 +1,140 @@
+body {
+    font-family: COMIC SANS MS;
+    background-color: #f4f4f4;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url('https://cdn.hswstatic.com/gif/When-the-moon-is-near-the-horizon-it-appears-larger.jpg');
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #FFD9B7;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+} 
+
+.language{
+    position: fixed;
+    border: solid;
+    border-radius: 5px;
+    background-color: white;
+    right: 2%;
+    top: 3%;
+    padding: 5px;
+    color: black;
+}
+
+.information {
+    border-radius:15px;
+    background-color: #0081C9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    position: fixed; /* Set to fixed to pin it */
+    left: 0; /* Align to the left side */
+    top: 0; /* Align to the top */
+    margin-left: 10px; /* Add margin to the left */
+    margin-bottom: 60px;
+    font-style: COMIC SANS MS;
+}
+
+.information img {
+    margin-bottom: 20px;
+}
+
+.EDUCATION {
+    border-radius: 5px;
+    background-color: #FFDDCC;
+    margin-bottom: 1000px;
+    width: 60%;
+    min-height: 1000px;
+    position: static; /* Set to fixed to pin it */
+    margin-left: 300px;
+    padding-left: 25px;
+}
+.photo {
+    width: 25px;
+    height: 25px;
+
+}
+.skills {
+}
+
+.progress {
+  height: 6px;
+  background-color: #BB9CC0;
+}
+.preloader {  
+  position: fixed;
+    top: 0;  
+    left: 0;
+    width: 100%;  
+    height: 100%;
+    display: flex; 
+    align-items: center;
+    justify-content: center;  
+    background: white;
+    z-index: 9999;  
+    opacity: 1;
+    transition: opacity 1s ease-in-out; /* Додали перехід для плавного зникнення */    pointer-events: none;
+}
+
+
+.progress-bar {
+  float: left;
+  width: 0;
+  height: 100%;
+  font-size: 12px;
+  line-height: 1px;
+  color: #fff;
+  text-align: center;
+  background-color: #2D9596;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: width 0.6s ease;
+  -o-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+}
+
+.text-grey {
+  color: gray;
+}
+
+.education-block {
+  display: flex;
+}
+
+
+.list a {
+    color: white;
+    text-decoration: none;
+}
+
+.hobbies{
+    margin-top: 50px;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+
+
